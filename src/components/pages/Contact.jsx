@@ -1,9 +1,9 @@
 export default function Contact() {
     return (
 
-    <div>
+    <div className='contact card'>
         <div>
-            <h2>Contact Me</h2>
+            <h2 className="title is-4 pageHeader">Contact Me</h2>
         </div>
         <ul>
             <li>Email: austinma2168@gmail.com </li>

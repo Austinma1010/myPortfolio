@@ -1,0 +1,71 @@
+:root {
+ 
+    border: rgb(120, 191, 209) solid 10px;
+    height: 100vh;
+    }
+
+
+.navbar {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    
+}
+
+.navBtns {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.button {
+    margin-right: 10px;
+}
+
+.base {
+    background-color: aliceblue;
+    
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    /* max-width:max-content; */
+    padding: 20px;
+    color: black;
+    width: 80%;
+    
+}
+
+.about {
+    background-color: #66D1FF;
+}
+
+.work {
+    background-color: #48C78E;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+
+}
+
+.contact {
+    background-color: #4258FF;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+  

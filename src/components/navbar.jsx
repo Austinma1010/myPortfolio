@@ -1,28 +1,28 @@
 function NavBar({ currentPage, handlePageChange }) {
 
     return (
-        <div className="nav nav-tabs">
-            <h2>Austin Anderson</h2>
-            <ul className="nav-item">
+        <div className="navbar">
+            <h2 className="title is-1">Austin Anderson</h2>
+            <ul className="navBtns">
                 <li>
                     <a
                     href="#about"
                     onClick={() => handlePageChange('About')}
-                    className = {currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                    className = 'button is-info is-responsive is-small'
                     > About Me!</a>
                 </li>
-                <li className="nav-item">
+                <li className="">
                     <a
                     href="#work"
                     onClick={() => handlePageChange('Work')}
-                    className = {currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
+                    className = 'button is-success is-responsive is-small'
                     > My Work!</a>
                 </li>
-                <li className="nav-item">
+                <li className="">
                     <a
                     href="#contact"
                     onClick={() => handlePageChange('Contact')}
-                    className = {currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                    className = 'button is-link is-responsive is-small'
                     > Contact Me!</a>
                 </li>
             </ul>
