@@ -9,7 +9,7 @@ export default function Blog() {
                 <div> 
                     <h2 className="title is-5">Weather Dashboard</h2>
                     <a href="https://austinma1010.github.io/WeatherChecker/">
-                    <figure class="image is-128x128">
+                    <figure className="image is-128x128">
                     <img src={weatherImg}></img>
                     </figure>
                     </a>
@@ -18,7 +18,7 @@ export default function Blog() {
                 <div>
                     <h2 className="title is-5">Day Planner</h2>
                     <a href="https://austinma1010.github.io/Module5-Challenge/">
-                    <figure class="image is-128x128">
+                    <figure className="image is-128x128">
                     <img src={weatherImg}></img>
                     </figure>
                     </a>
@@ -27,7 +27,7 @@ export default function Blog() {
                 <div>
                     <h2 className="title is-5">PlaceHolder</h2>
                     <a>
-                    <figure class="image is-128x128">
+                    <figure className="image is-128x128">
                     <img src={weatherImg}></img>
                     </figure>
                     </a>
