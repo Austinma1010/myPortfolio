@@ -9,7 +9,7 @@
   publish = "dist"
 
  
-  cache = { paths = ["node_modules"] }
+  cache = ["node_modules"] 
 
 [context.production.environment]
   
