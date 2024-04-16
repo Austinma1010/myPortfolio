@@ -1,6 +1,6 @@
 [build]
   
-  base = "main"
+  base = "src"
 
  
   command = "npm run build"
