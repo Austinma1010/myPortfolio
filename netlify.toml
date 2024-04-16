@@ -1,6 +1,6 @@
 [build]
   
-  base = "myPortfolio"
+  base = "main"
 
  
   command = "npm run build"
