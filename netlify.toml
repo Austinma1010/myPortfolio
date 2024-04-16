@@ -1,12 +1,12 @@
 [build]
   
-  base = "your_base_directory/"
+  base = "main"
 
  
   command = "npm run build"
 
   
-  publish = "public/"
+  publish = "dist"
 
  
   cache = { paths = ["node_modules"] }
