@@ -3,7 +3,7 @@ import NavBar from './navbar';
 import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
-
+import Footer from './Footer';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -26,6 +26,7 @@ export default function PortfolioContainer() {
     <div>
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       <main className="mx-3">{renderPage()}</main>
+      <Footer/>
     </div>
   );
 }

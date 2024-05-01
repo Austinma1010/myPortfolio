@@ -1,15 +1,13 @@
 :root {
- 
     border: rgb(120, 191, 209) solid 10px;
     height: 100vh;
-    }
+}
 
 
 .navbar {
     display: flex;
     margin: 10px;
     justify-content: space-between;
-    
 }
 
 .navBtns {
@@ -20,17 +18,16 @@
 
 .button {
     margin-right: 10px;
+    color: white;
 }
 
 .base {
     background-color: aliceblue;
-    
 }
 
 .pageHeader {
     display: flex;
     justify-content: center;
-
 }
 
 .card {
@@ -42,7 +39,7 @@
     padding: 20px;
     color: black;
     width: 80%;
-    
+    background-color: white;
 }
 
 .about {
@@ -54,18 +51,33 @@
     align-items: center;
     justify-content: center;
     width: 80%;
-
 }
 
 .contact {
+    color: white;
     background-color: #4258FF;
     align-items: center;
     justify-content: center;
     width: 80%;
 }
 
+.quote {
+    font-weight: bolder;
+    color: white;
+    position: fixed;
+    bottom: 10%;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #14161A;
+    
+    
+}
+
 main {
     display: flex;
     justify-content: center;
 }
-  
