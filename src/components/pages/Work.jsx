@@ -12,7 +12,7 @@ export default function Blog() {
             <summary className="projectContainer">
                 <div className="project"> 
                     <h2 className="title is-5">Weather Dashboard</h2>
-                    <a href="https://austinma1010.github.io/WeatherChecker/">
+                    <a href="https://austinma1010.github.io/WeatherChecker/" target="_blank">
                     <figure className="img">
                     <img src={weatherImg}></img>
                     </figure>
@@ -21,7 +21,7 @@ export default function Blog() {
 
                 <div className="project">
                     <h2 className="title is-5">Movie Search</h2>
-                    <a href="https://austinma1010.github.io/MovieSearchEngine/">
+                    <a href="https://austinma1010.github.io/MovieSearchEngine/" target="_blank">
                     <figure className="img">
                     <img src={movieImg}></img>
                     </figure>
@@ -39,7 +39,7 @@ export default function Blog() {
 
                 <div className="project">
                     <h2 className="title is-5">ShapeShift</h2>
-                    <a href='https://shape-shift2-dd464e575484.herokuapp.com/login'>
+                    <a href='https://shape-shift2-dd464e575484.herokuapp.com/login' target="_blank">
                     <figure className="img">
                     <img src={shapeShift}></img>
                     </figure>

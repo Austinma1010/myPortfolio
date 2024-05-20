@@ -44,6 +44,7 @@
 
 .about {
     background-color: #66D1FF;
+    color: black;
 }
 
 .work {
@@ -80,7 +81,7 @@
     display: flex;
     padding-top: 15px;
     justify-self: center;
-    border-bottom: white solid 3px;
+    
 }
 .project {
     display: flex;
@@ -109,4 +110,20 @@
 main {
     display: flex;
     justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.panel {
+    width: 70%;
+    border: 2px #14161A solid;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.panel-heading {
+    background-color: #14161A;
 }
