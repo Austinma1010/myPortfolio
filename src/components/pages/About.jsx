@@ -1,4 +1,4 @@
-import pfp from '../../assets/images/BootcampPFP.jpg'
+import pfp from '../../assets/images/workSelfie.png'
 
 export default function About() {
     return (
@@ -12,7 +12,7 @@ export default function About() {
     </div>
     <div className="media-content">
       <div className="content">
-        <p className="about">
+        <p className="about block">
           <strong>Some Info About Me</strong>
           
           <br />
@@ -71,7 +71,7 @@ export default function About() {
   <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS"  class="panel-block">
     CSS and various CSS frameworks
   </a>
-  <div class="panel-block">
+  <div class="panel-block end">
   </div>
 </nav>
 </div>

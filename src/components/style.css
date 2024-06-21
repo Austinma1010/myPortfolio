@@ -127,3 +127,17 @@ main {
 .panel-heading {
     background-color: #14161A;
 }
+
+.end {
+    background-color: #14161A;
+}
+
+@media screen and (max-width: 640px) {
+    .title { 
+        font-size: 20px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}

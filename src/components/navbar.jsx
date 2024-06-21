@@ -2,7 +2,7 @@ function NavBar({ currentPage, handlePageChange }) {
 
     return (
         <div className="navbar">
-            <h2 className="title is-1">Austin Anderson</h2>
+            <h2 className="title">Austin Anderson</h2>
             <ul className="navBtns">
                 <li>
                     <a
